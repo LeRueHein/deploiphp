@@ -1,32 +1,32 @@
-body{
+body {
     background-image: url(testbackground.jpg);
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-div{
+div {
     margin: 10px;
 }
 
-h1{
+h1 {
     background-color: rgb(130, 131, 136);
     padding: 5px;
     text-align: center;
     border: solid black 3px;
 }
 
-.lbl{
+.lbl {
     width: 100px;
     display: inline-block;
     color: rgb(48, 155, 226);
 }
 
-input[type=submit]{
+input[type=submit] {
     margin-left: 104px;
 }
 
-.errors{
+.errors {
     background-color: rgb(223, 39, 39);
     color: white;
     padding: 3px;
