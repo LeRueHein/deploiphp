@@ -1,3 +1,3 @@
 <?php
-
-echo date('l j F Y, H:i'); // Thursday 11 October 2012, 15:35
+$date = new DateTime('now', new DateTimeZone('Europe/Paris'));
+echo $date->format('Y-m-d H:i');
